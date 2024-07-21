@@ -249,7 +249,7 @@ void RPSGame::mainMenu()
 	{
 
 		screenClear();
-		cout << "Welcome to Rock Paper Scissors! " << "Choose an option below: " << endl << endl;
+		cout << "Welcome to Rock Paper Scissors by Sammit! " << "Choose an option below: " << endl << endl;
 		cout << "1) Start New Game" << endl;
 		cout << "2) Tool Settings" << endl;
 		cout << "3) Quit" << endl << endl;

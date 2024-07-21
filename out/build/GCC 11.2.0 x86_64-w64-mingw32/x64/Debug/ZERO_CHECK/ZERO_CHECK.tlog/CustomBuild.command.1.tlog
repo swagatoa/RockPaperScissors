@@ -1,0 +1,10 @@
+^C:\WORK\C++\ROCKPAPERSCISSORS\OUT\BUILD\GCC 11.2.0 X86_64-W64-MINGW32\CMAKEFILES\EC8D92AF3BF62405DE61B673E7EC7539\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Work/c++/RockPaperScissors "-BC:/Work/c++/RockPaperScissors/out/build/GCC 11.2.0 x86_64-w64-mingw32" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Work/c++/RockPaperScissors/out/build/GCC 11.2.0 x86_64-w64-mingw32/RPS.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

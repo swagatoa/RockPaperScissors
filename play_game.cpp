@@ -23,7 +23,7 @@
 ****************************************************************/
 
 #include "RPSGame.hpp"
-
+#include<iostream>
 int main()
 {
 	// Amount of time in seconds final score is displayed before game resets.
